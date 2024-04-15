@@ -25,5 +25,6 @@
 
 #define ELM_FUNCTION(name, return_type, ...) typedef return_type (*element_##name##_t)(__VA_ARGS__);
 #define ELM_OPAQUE_HANDLE(name) typedef void* ELM_##name;
+#define ELM_OPAQUE_TYPE(name) typedef void* element_##name##_t;
 
 #define ELM_API ELM_EXPORT
