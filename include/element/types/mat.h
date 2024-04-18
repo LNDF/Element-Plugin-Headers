@@ -15,7 +15,7 @@ typedef struct {
 
 typedef struct {
     element_vec4_t x, y;
-} element_mat3x4_t;
+} element_mat2x4_t;
 
 typedef struct {
     element_vec2_t x, y, z;
