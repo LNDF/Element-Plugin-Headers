@@ -5,6 +5,7 @@
 ELM_BEGIN_C
 
 #define ELM_EVENT_CORE_CLOSE "element.core.close"
+#define ELM_EVENT_CORE_UPDATE "element.core.update"
 
 #define ELM_EVENT_DISPLAY_MOUSE_DOWN "element.display.mouse_down"
 #define ELM_EVENT_DISPLAY_MOUSE_UP "element.display.mouse_up"
