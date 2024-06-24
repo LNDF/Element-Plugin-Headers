@@ -27,6 +27,6 @@
 #define ELM_OPAQUE_HANDLE(name) typedef void* ELM_##name;
 #define ELM_OPAQUE_TYPE(name) typedef void* element_##name##_t;
 
-#define ELM_FUNCTION_IMPL(name) element_##name##_t name##_impl
+#define ELM_FUNCTION_IMPL(name) element_##name##_t name
 
 #define ELM_API ELM_EXPORT
